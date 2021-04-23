@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(225, 226, 226);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+h2{
+    font-size: 100px;
+}
+
+p{
+    font-size: 180px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    color: green;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.774);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.329);
+
+    margin-right: 15px;
+    width: 150px;
+    height: 30px;
+
+    text-transform: uppercase;
+    background-color: unset;
+
+    transition: 0.5s;
+}
+
+button:hover{
+    border: 1px solid rgb(0, 26, 255);
+    background-color: rgb(233, 233, 233);
+}
