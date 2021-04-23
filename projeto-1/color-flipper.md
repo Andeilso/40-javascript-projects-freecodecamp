@@ -1,4 +1,4 @@
-##Desafio:
+##Projeto:
 
 #- Color Flipper
 
